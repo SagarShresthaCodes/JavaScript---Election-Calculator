@@ -1,0 +1,46 @@
+/* Assignment 7A
+   Sagar Shrestha
+   shrestha_sagar_assignment7A_local_storage.css */
+
+body {
+    background-color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#politics {
+    border-color: blue;
+    border-style: double;
+    border-width: 4px;
+    padding: 5px;
+}
+
+legend {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+label {
+    margin: 3px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+output {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+button {
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+span {
+    color: red;
+    font-size: 17px;
+}

@@ -1,0 +1,96 @@
+<!doctype html>
+<!--
+    Assignment 7A
+    Sagar Shrestha
+    shrestha_sagar_assignment7A_local_storage.html
+    -->
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Assignment 7A</title>
+    <link rel="stylesheet" href="css/shrestha_sagar_assignment7A_local_storage.css" />
+</head>
+
+<body>
+    <header>
+        <p>Election Calculator</p>
+    </header>
+
+    <section>
+        <form id="politics">
+            <fieldset>
+                <legend>Candidates</legend>
+                <label for="candidate1">Candidate 1</label>
+                <input id="candidate1">
+                <select id="party1">
+                    <option value="democratic">Democratic</option>
+                    <option value="independent">Independent</option>
+                    <option value="republican">Republican</option>
+                </select>
+                <br/>
+                <label for="candidate2">Candidate 2</label>
+                <input id="candidate2">
+                <select id="party2">
+                    <option value="democratic">Democratic</option>
+                    <option value="independent">Independent</option>
+                    <option value="republican">Republican</option>
+                </select>
+                <br/>
+                <label for="candidate3">Candidate 3</label>
+                <input id="candidate3">
+                <select id="party3">
+                    <option value="democratic">Democratic</option>
+                    <option value="independent">Independent</option>
+                    <option value="republican">Republican</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Votes</legend>
+                <label for="votesCandidate1">Votes for Candidate 1</label>
+                <input id="votesCandidate1">
+                <span id="votesError1"></span>
+                <br/>
+                <label for="votesCandidate2">Votes for Candidate 2</label>
+                <input id="votesCandidate2">
+                <span id="votesError2"></span>
+                <br/>
+                <label for="votesCandidate3">Votes for Candidate 3</label>
+                <input id="votesCandidate3">
+                <span id="votesError3"></span>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Current Results</legend>
+                <label for="currentDate">As of</label>
+                <input id="currentDate" type="date">
+                <!-- Removed type="date" for <input> to have the browser treat 'As of' field as an input text field for date not parsable error  -->
+                <span id="dateError"></span>
+                <br/>
+                <label for="totalVotes">Total Votes Counted:</label>
+                <output id="totalVotes"></output>
+                <br/>
+                <label for="percentCandidate1">Candidate 1 Percentage:</label>
+                <output id="percentCandidate1"></output>
+                <br/>
+                <label for="percentCandidate2">Candidate 2 Percentage:</label>
+                <output id="percentCandidate2"></output>
+                <br/>
+                <label for="percentCandidate3">Candidate 3 Percentage:</label>
+                <output id="percentCandidate3"></output>
+                <br/>
+            </fieldset>
+
+            <button type="button" id="calculate1">Calculate</button>
+            <!-- <button onclick="init()" type="button">Calculate</button> -->
+        </form>
+    </section>
+
+    <script src="js/shrestha_sagar_assignment7A_local_storage.js">
+    </script>
+</body>
+
+</html>
